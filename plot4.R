@@ -27,7 +27,7 @@ with(Data3,plot(Data3$DT,Data3$Voltage, xlab="datatime", ylab="Voltage", type="l
 plot(Data3$DT,Data3$Sub_metering_1, xlab="",type="l",col="black",ylab="Energy sub metering")
 lines(Data3$DT,Data3$Sub_metering_2, xlab="",type="l",col="red")
 lines(Data3$DT,Data3$Sub_metering_3, xlab="",type="l",col="blue")
-legend("topright",lty=c(1,1,1),col=c("black","red","blue"),legend=c("Sub_meeting_1","Sub_meeting_2","Sub_meeting_3"),cex = 0.5)
+legend("topright",lty=c(1,1,1),col=c("black","red","blue"),legend=c("Sub_meeting_1","Sub_meeting_2","Sub_meeting_3"),cex = 0.5,bty="n")
 #4
 with(Data3,plot(Data3$DT,Data3$Global_reactive_power, xlab="datatime", ylab="Global_reactive_power", type="l"))
 #png file
